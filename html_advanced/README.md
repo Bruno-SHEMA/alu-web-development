@@ -7,3 +7,5 @@ The homepage introduces users to SmileSchool's instructors, popular tutorials, m
 3. Testimonials section 
 4. Popular Tutorials section 
 5. FAQ section.
+# Sample Image
+<img width="852" height="617" alt="image" src="https://github.com/user-attachments/assets/63e4a356-cb97-4d71-99fd-86d8758dba54" />
