@@ -1,0 +1,260 @@
+body {
+  margin: 0;
+  text-align: center;
+  align-items: center;
+}
+.hero-section {
+  background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(https://i.ibb.co/V0N1GVsQ/bg.jpg);
+  width: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  background-position: center top;
+
+  z-index: -2;
+  margin: 0;
+  padding: 1rem 4rem;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 4rem;
+}
+.nav-logo {
+  font-size: 32px;
+}
+.nav-links {
+  display: flex;
+  gap: 2rem;
+  font-size: 15px;
+}
+
+.nav a {
+  font-family: "Source Sans Pro";
+  text-decoration: none;
+  color: white;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 4rem;
+}
+.hero h1 {
+  font-size: 4.5rem;
+  font-weight: bolder;
+}
+.hero-content {
+  align-items: center;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.hero-texts {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 2.5rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+}
+
+.hero-button {
+  padding: 1rem;
+  border: none;
+  border-radius: 30px;
+  background-color: #c271ff;
+  box-shadow: 2px 4px 8px 1px rgba(41, 36, 36, 0.6);
+  color: #ffff;
+}
+
+.pros-section h2 {
+  padding-top: 2rem;
+  font-weight: 1;
+}
+
+.pros-images {
+  display: flex;
+  gap: 10rem;
+  padding-top: 5rem;
+}
+.pro img {
+  border-radius: 50%;
+}
+
+.quote-sections {
+  padding: 0;
+  background-color: #c271ff;
+  padding: 30px;
+  color: white;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.quote-section {
+  align-items: center;
+  text-align: center;
+  display: flex;
+  gap: 4rem;
+  padding: 0rem 10rem;
+  letter-spacing: 1px;
+}
+.quote-section img {
+  border-radius: 50%;
+  width: 20%;
+}
+.quote-text {
+  text-align: left;
+}
+
+.tt {
+  padding: 6rem;
+}
+.tt h1 {
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-family: sans-serif;
+}
+.tutorials-section {
+  display: flex;
+  gap: 1rem;
+  text-align: left;
+}
+.tutorial-card h2 {
+  font-weight: 900;
+  font-size: 17px;
+}
+.tutorial-card p {
+  font-size: 12px;
+}
+.tutorial-card h2,
+p {
+  padding-left: 3px;
+}
+.tutorial-image {
+  height: 10rem;
+  width: 15rem;
+}
+.rating-stars {
+  display: flex;
+  padding: 1rem;
+  color: #c271ff;
+}
+.rater {
+  display: flex;
+  gap: 1rem;
+  color: #c271ff;
+}
+.rater img {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+}
+
+.membership-section {
+  background-color: #071629;
+  color: #fff;
+  padding: 6rem;
+  font-family: sans-serif;
+}
+.membership-section h1 {
+  font-weight: 500;
+}
+.membership {
+  display: flex;
+  gap: 5rem;
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.membership img {
+  color: #c271ff;
+}
+.membership h2 {
+  font-size: 15px;
+}
+.membership p {
+  font-size: 13px;
+  letter-spacing: 1px;
+  color: rgb(223, 219, 219);
+}
+.faq-section {
+  margin-left: 15rem;
+  margin-right: 15rem;
+}
+.faq-container {
+  text-align: left;
+  display: flex;
+  gap: 15rem;
+}
+.faq-container h2 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+  font-weight: 900;
+}
+.faq-container p {
+  font-size: 14px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 100;
+  letter-spacing: 1px;
+  color: gray;
+}
+
+.site-footer {
+  background-color: #0b1524;
+  padding: 2rem 8rem 1rem;
+}
+
+.footer-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-logo span {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 800;
+  letter-spacing: 0.2px;
+}
+
+.footer-social {
+  display: flex;
+  gap: 12px;
+}
+
+.footer-social a {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition:
+    transform 0.15s ease,
+    opacity 0.15s ease;
+}
+
+.footer-copyright {
+  text-align: center;
+  color: #5b6472;
+  font-size: 13px;
+  margin-top: 48px;
+}
